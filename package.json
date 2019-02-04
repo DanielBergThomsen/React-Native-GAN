@@ -1,0 +1,29 @@
+{
+  "name": "DigitGenerator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fast-png": "^3.1.0",
+    "gaussian": "https://github.com/errcw/gaussian",
+    "pngjs": "^3.3.3",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-canvas": "^0.1.25",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-fs": "^2.13.3",
+    "react-native-tensorflow": "^0.1.8"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
